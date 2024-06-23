@@ -1,0 +1,40 @@
+* {
+    font-family: "Calibri";
+}
+
+.main {
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    height: 150px;
+    width: 200px;
+    border-radius: 11px;
+    box-shadow: 0px 0px 4px 2px rgb(11, 30, 5, 0.150);
+}
+
+.tag {
+    position: relative;
+    left: 57px;
+    top: 20px;
+    background-color: aliceblue;
+    display: table-cell;
+    padding: 3px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(3, 10, 5, 0.100);
+}
+
+.bal {
+    position: relative;
+    top: 20px;
+    left: 72px;
+}
+
+.btn {
+    position: relative;
+    background-color: rgba(91, 135, 255, 0.897);
+    padding: 3px 16px;
+    border-radius: 14px;
+    font-size: 16px;
+    left: 66.7px;
+    top: 25px;
+    border: rgba(64, 73, 103, 0.897) solid 1px;
+}
