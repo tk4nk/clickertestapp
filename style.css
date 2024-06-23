@@ -35,6 +35,13 @@
     border-radius: 14px;
     font-size: 16px;
     left: 66.7px;
-    top: 25px;
+    top: 20px;
     border: rgba(64, 73, 103, 0.897) solid 1px;
+}
+
+.md {
+    position: relative;
+    font-size: 8px;
+    top: 48px;
+    left: -1px;
 }
