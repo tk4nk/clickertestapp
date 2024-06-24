@@ -1,20 +1,25 @@
 * {
     font-family: "Calibri";
+    font-size: 22px;
 }
 
 .main {
     position: relative;
     background-color: rgb(245, 245, 245);
-    height: 150px;
-    width: 200px;
-    border-radius: 11px;
+    height: 250px;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
     box-shadow: 0px 0px 4px 2px rgb(11, 30, 5, 0.150);
 }
 
 .tag {
     position: relative;
-    left: 57px;
-    top: 20px;
+    /* left: 57px; */
+    /* top: 20px; */
     background-color: aliceblue;
     display: table-cell;
     padding: 3px 20px;
@@ -24,24 +29,28 @@
 
 .bal {
     position: relative;
-    top: 20px;
-    left: 72px;
+    width: 200px;
+    top: -18px;
+    left: 1px;
+    text-align: center;
 }
 
 .btn {
     position: relative;
-    background-color: rgba(91, 135, 255, 0.897);
-    padding: 3px 16px;
-    border-radius: 14px;
-    font-size: 16px;
-    left: 66.7px;
-    top: 20px;
-    border: rgba(64, 73, 103, 0.897) solid 1px;
+    border-radius: 100px;
+    top: -25px;
+    width: 100px;
+    transition: all 0.23s ease;
+}
+
+.btn:hover {
+    transform: none;
+    transition: transform 0.3s ease;
 }
 
 .md {
     position: relative;
-    font-size: 8px;
-    top: 48px;
+    font-size: 10px;
+    top: -14px;
     left: -1px;
 }
